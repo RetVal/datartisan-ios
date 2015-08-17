@@ -10,9 +10,7 @@
 		3068DBB11B81A49E00277176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068DBB01B81A49E00277176 /* AppDelegate.swift */; };
 		3068DBB61B81A49E00277176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3068DBB41B81A49E00277176 /* Main.storyboard */; };
 		3068DBB81B81A49E00277176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3068DBB71B81A49E00277176 /* Assets.xcassets */; };
-		3068DBBB1B81A49E00277176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3068DBB91B81A49E00277176 /* LaunchScreen.storyboard */; };
 		3068DBC61B81A49E00277176 /* DatartisanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068DBC51B81A49E00277176 /* DatartisanTests.swift */; };
-		3068DBD11B81A49E00277176 /* DatartisanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068DBD01B81A49E00277176 /* DatartisanUITests.swift */; };
 		30CFD88A1B81C2AE0066E28D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFD8891B81C2AE0066E28D /* ViewController.swift */; };
 		30CFD88C1B81C2C20066E28D /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFD88B1B81C2C20066E28D /* DataSource.swift */; };
 		30CFD88E1B81D1140066E28D /* PrimaryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFD88D1B81D1140066E28D /* PrimaryKey.swift */; };
@@ -27,13 +25,6 @@
 			remoteGlobalIDString = 3068DBAC1B81A49E00277176;
 			remoteInfo = Datartisan;
 		};
-		3068DBCD1B81A49E00277176 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3068DBA51B81A49E00277176 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3068DBAC1B81A49E00277176;
-			remoteInfo = Datartisan;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -41,12 +32,10 @@
 		3068DBB01B81A49E00277176 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3068DBB51B81A49E00277176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3068DBB71B81A49E00277176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3068DBBA1B81A49E00277176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3068DBBC1B81A49E00277176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3068DBC11B81A49E00277176 /* DatartisanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatartisanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3068DBC51B81A49E00277176 /* DatartisanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatartisanTests.swift; sourceTree = "<group>"; };
 		3068DBC71B81A49E00277176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3068DBCC1B81A49E00277176 /* DatartisanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatartisanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3068DBD01B81A49E00277176 /* DatartisanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatartisanUITests.swift; sourceTree = "<group>"; };
 		3068DBD21B81A49E00277176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30CFD8891B81C2AE0066E28D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,13 +53,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3068DBBE1B81A49E00277176 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3068DBC91B81A49E00277176 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -95,7 +77,6 @@
 			children = (
 				3068DBAD1B81A49E00277176 /* Datartisan.app */,
 				3068DBC11B81A49E00277176 /* DatartisanTests.xctest */,
-				3068DBCC1B81A49E00277176 /* DatartisanUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +92,6 @@
 				3068DBB01B81A49E00277176 /* AppDelegate.swift */,
 				3068DBB41B81A49E00277176 /* Main.storyboard */,
 				3068DBB71B81A49E00277176 /* Assets.xcassets */,
-				3068DBB91B81A49E00277176 /* LaunchScreen.storyboard */,
 				3068DBBC1B81A49E00277176 /* Info.plist */,
 			);
 			path = Datartisan;
@@ -212,24 +192,6 @@
 			productReference = 3068DBC11B81A49E00277176 /* DatartisanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3068DBCB1B81A49E00277176 /* DatartisanUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3068DBDB1B81A49E00277176 /* Build configuration list for PBXNativeTarget "DatartisanUITests" */;
-			buildPhases = (
-				3068DBC81B81A49E00277176 /* Sources */,
-				3068DBC91B81A49E00277176 /* Frameworks */,
-				3068DBCA1B81A49E00277176 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3068DBCE1B81A49E00277176 /* PBXTargetDependency */,
-			);
-			name = DatartisanUITests;
-			productName = DatartisanUITests;
-			productReference = 3068DBCC1B81A49E00277176 /* DatartisanUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -243,10 +205,6 @@
 						CreatedOnToolsVersion = 7.0;
 					};
 					3068DBC01B81A49E00277176 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 3068DBAC1B81A49E00277176;
-					};
-					3068DBCB1B81A49E00277176 = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 3068DBAC1B81A49E00277176;
 					};
@@ -267,7 +225,6 @@
 			targets = (
 				3068DBAC1B81A49E00277176 /* Datartisan */,
 				3068DBC01B81A49E00277176 /* DatartisanTests */,
-				3068DBCB1B81A49E00277176 /* DatartisanUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,20 +234,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3068DBBB1B81A49E00277176 /* LaunchScreen.storyboard in Resources */,
 				3068DBB81B81A49E00277176 /* Assets.xcassets in Resources */,
 				3068DBB61B81A49E00277176 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3068DBBF1B81A49E00277176 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3068DBCA1B81A49E00277176 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,14 +269,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3068DBC81B81A49E00277176 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3068DBD11B81A49E00277176 /* DatartisanUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -335,11 +276,6 @@
 			isa = PBXTargetDependency;
 			target = 3068DBAC1B81A49E00277176 /* Datartisan */;
 			targetProxy = 3068DBC21B81A49E00277176 /* PBXContainerItemProxy */;
-		};
-		3068DBCE1B81A49E00277176 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3068DBAC1B81A49E00277176 /* Datartisan */;
-			targetProxy = 3068DBCD1B81A49E00277176 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -350,14 +286,6 @@
 				3068DBB51B81A49E00277176 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3068DBB91B81A49E00277176 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3068DBBA1B81A49E00277176 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -438,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,11 +378,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Datartisan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.datartisan.Datartisan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -462,11 +393,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Datartisan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.datartisan.Datartisan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -491,30 +425,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.datartisan.DatartisanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Datartisan.app/Datartisan";
-			};
-			name = Release;
-		};
-		3068DBDC1B81A49E00277176 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DatartisanUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.datartisan.DatartisanUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Datartisan;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		3068DBDD1B81A49E00277176 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = DatartisanUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.datartisan.DatartisanUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Datartisan;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
@@ -544,15 +454,6 @@
 			buildConfigurations = (
 				3068DBD91B81A49E00277176 /* Debug */,
 				3068DBDA1B81A49E00277176 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3068DBDB1B81A49E00277176 /* Build configuration list for PBXNativeTarget "DatartisanUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3068DBDC1B81A49E00277176 /* Debug */,
-				3068DBDD1B81A49E00277176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
