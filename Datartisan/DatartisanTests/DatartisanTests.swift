@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Datartisan
+import Datartisan
 
 class DatartisanTests: XCTestCase {
     
