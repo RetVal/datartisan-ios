@@ -122,10 +122,10 @@ public class DataSource : NSObject, UITableViewDataSource {
     public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, withIdentifier identifier: String, forClass cellClass: AnyClass) -> Cell {
         var c = tableView.cellForRowAtIndexPath(indexPath)
         if (nil != c || c?.isKindOfClass(cellClass) == false) {
-            c = tableView.dequeueReusableCellWithIdentifier(identifier, forIndexPath: indexPath) as! UITableViewCell
+            c = tableView.dequeueReusableCellWithIdentifier(identifier, forIndexPath: indexPath)
         }
         if nil != c {
-            c = tableView.dequeueReusableCellWithIdentifier(identifier) as! UITableViewCell
+            c = tableView.dequeueReusableCellWithIdentifier(identifier)
         }
         return c as! Cell
     }
