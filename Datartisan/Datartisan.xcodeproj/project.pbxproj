@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301D27B31B82D58D00B3286A /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D27B21B82D58D00B3286A /* Article.swift */; };
 		3068DBB11B81A49E00277176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068DBB01B81A49E00277176 /* AppDelegate.swift */; };
 		3068DBB61B81A49E00277176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3068DBB41B81A49E00277176 /* Main.storyboard */; };
 		3068DBB81B81A49E00277176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3068DBB71B81A49E00277176 /* Assets.xcassets */; };
 		3068DBBB1B81A49E00277176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3068DBB91B81A49E00277176 /* LaunchScreen.storyboard */; };
 		3068DBC61B81A49E00277176 /* DatartisanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068DBC51B81A49E00277176 /* DatartisanTests.swift */; };
 		3068DBD11B81A49E00277176 /* DatartisanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3068DBD01B81A49E00277176 /* DatartisanUITests.swift */; };
+		308D32AE1B82E29B001A030B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308D32AC1B82E29B001A030B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		308D32AF1B82E29B001A030B /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308D32AD1B82E29B001A030B /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		30CFD88A1B81C2AE0066E28D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFD8891B81C2AE0066E28D /* ViewController.swift */; };
 		30CFD88C1B81C2C20066E28D /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFD88B1B81C2C20066E28D /* DataSource.swift */; };
 		30CFD88E1B81D1140066E28D /* PrimaryKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFD88D1B81D1140066E28D /* PrimaryKey.swift */; };
@@ -36,7 +39,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		308D32AB1B82E28B001A030B /* Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				308D32AE1B82E29B001A030B /* Alamofire.framework in Frameworks */,
+				308D32AF1B82E29B001A030B /* ObjectMapper.framework in Frameworks */,
+			);
+			name = Frameworks;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		301D27B21B82D58D00B3286A /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		3068DBAD1B81A49E00277176 /* Datartisan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Datartisan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3068DBB01B81A49E00277176 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3068DBB51B81A49E00277176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,8 @@
 		3068DBCC1B81A49E00277176 /* DatartisanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatartisanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3068DBD01B81A49E00277176 /* DatartisanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatartisanUITests.swift; sourceTree = "<group>"; };
 		3068DBD21B81A49E00277176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308D32AC1B82E29B001A030B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		308D32AD1B82E29B001A030B /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 		30CFD8891B81C2AE0066E28D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30CFD88B1B81C2C20066E28D /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		30CFD88D1B81D1140066E28D /* PrimaryKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryKey.swift; sourceTree = "<group>"; };
@@ -86,6 +107,7 @@
 				3068DBAF1B81A49E00277176 /* Datartisan */,
 				3068DBC41B81A49E00277176 /* DatartisanTests */,
 				3068DBCF1B81A49E00277176 /* DatartisanUITests */,
+				308D32B01B82E3DC001A030B /* Frameworks */,
 				3068DBAE1B81A49E00277176 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,7 +146,7 @@
 				3068DBC71B81A49E00277176 /* Info.plist */,
 			);
 			path = DatartisanTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		3068DBCF1B81A49E00277176 /* DatartisanUITests */ = {
 			isa = PBXGroup;
@@ -133,6 +155,15 @@
 				3068DBD21B81A49E00277176 /* Info.plist */,
 			);
 			path = DatartisanUITests;
+			sourceTree = "<group>";
+		};
+		308D32B01B82E3DC001A030B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				308D32AC1B82E29B001A030B /* Alamofire.framework */,
+				308D32AD1B82E29B001A030B /* ObjectMapper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		30CFD8841B81C2AE0066E28D /* Cell */ = {
@@ -155,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				30CFD88D1B81D1140066E28D /* PrimaryKey.swift */,
+				301D27B21B82D58D00B3286A /* Article.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +216,7 @@
 				3068DBA91B81A49E00277176 /* Sources */,
 				3068DBAA1B81A49E00277176 /* Frameworks */,
 				3068DBAB1B81A49E00277176 /* Resources */,
+				308D32AB1B82E28B001A030B /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,6 +339,7 @@
 			files = (
 				30CFD88E1B81D1140066E28D /* PrimaryKey.swift in Sources */,
 				30CFD88C1B81C2C20066E28D /* DataSource.swift in Sources */,
+				301D27B31B82D58D00B3286A /* Article.swift in Sources */,
 				30CFD8901B81D1270066E28D /* Cell.swift in Sources */,
 				30CFD88A1B81C2AE0066E28D /* ViewController.swift in Sources */,
 				3068DBB11B81A49E00277176 /* AppDelegate.swift in Sources */,
@@ -451,6 +485,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Datartisan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.datartisan.Datartisan;
@@ -463,6 +501,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Datartisan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.datartisan.Datartisan;

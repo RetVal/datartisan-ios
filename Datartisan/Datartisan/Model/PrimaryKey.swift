@@ -15,7 +15,7 @@ public protocol PrimaryKeyProtocol {
     func numbericKey() -> IDType
 }
 
-public class IntPK : NSObject, PrimaryKeyProtocol {
+public class IntPK : PrimaryKeyProtocol {
     public var ID : IDType = 0
     public func getInKey() -> String {
         return "\(ID)"
@@ -26,7 +26,7 @@ public class IntPK : NSObject, PrimaryKeyProtocol {
     }
 }
 
-public class StringPK : NSObject, PrimaryKeyProtocol {
+public class StringPK : PrimaryKeyProtocol {
     public var keyString : String = ""
     public func getInKey() -> String {
         return keyString
@@ -34,6 +34,46 @@ public class StringPK : NSObject, PrimaryKeyProtocol {
     
     public func numbericKey() -> IDType {
         return IDType((keyString as NSString).integerValue)
+    }
+}
+
+extension String : PrimaryKeyProtocol {
+    public func getInKey() -> String {
+        return self
+    }
+    
+    public func numbericKey() -> IDType {
+        return IDType((getInKey() as NSString).integerValue)
+    }
+}
+
+extension Int : PrimaryKeyProtocol {
+    public func getInKey() -> String {
+        return "\(self)"
+    }
+    
+    public func numbericKey() -> IDType {
+        return IDType(self)
+    }
+}
+
+extension NSString : PrimaryKeyProtocol {
+    public func getInKey() -> String {
+        return self as String
+    }
+    
+    public func numbericKey() -> IDType {
+        return IDType(self.integerValue)
+    }
+}
+
+extension NSNumber : PrimaryKeyProtocol {
+    public func getInKey() -> String {
+        return self.description as String
+    }
+    
+    public func numbericKey() -> IDType {
+        return IDType(self.unsignedLongLongValue)
     }
 }
 
